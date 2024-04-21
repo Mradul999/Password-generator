@@ -1,3 +1,18 @@
-.strength {
-  box-shadow: 0 0 50px rgba(175, 173, 173, 0.5);
+.strength-indicator {
+  box-shadow: 0 0 10px 2px rgba(234, 232, 232, 0.75);
+}
+
+.password-div{
+    box-shadow: 0 4px  rgba(0, 255, 229, 0.8);
+
+}
+.generate-password{
+    box-shadow: 0 5px  rgba(0, 255, 229, 0.8);
+
+}
+
+.generate-button{
+    box-shadow: 0 5px  #ffe101cc;
+
+    
 }
