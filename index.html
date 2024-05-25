@@ -47,17 +47,24 @@
             <p class="font-mono tracking-normal text-[16px] text-white">
               Password length
             </p>
-            <div class="text-[18px] text-yellow-500 font-semibold">10</div>
+            <div
+              class="text-[18px] text-yellow-500 font-semibold"
+              data-lengthNumber
+            >
+              10
+            </div>
           </div>
           <!-- password length slider -->
 
           <input
+            data-lengthSlider
             type="range"
             min="1"
             max="20"
             step="1"
             class="slider"
             value="10"
+            
           />
 
           <!-- checkboxes  -->
@@ -92,6 +99,7 @@
             <p class="font-mono text-[15px] text-white">Strength</p>
             <!-- strenght indicator -->
             <div
+              data-indicator
               class="strength-indicator bg-white/80 h-6 w-6 rounded-full"
             ></div>
           </div>
