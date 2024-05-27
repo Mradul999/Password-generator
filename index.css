@@ -2,23 +2,35 @@
   box-shadow: 0 0 10px 2px rgba(234, 232, 232, 0.75);
 }
 
-.password-div{
-    box-shadow: 0 4px  rgba(0, 255, 229, 0.8);
-
+.password-div {
+  box-shadow: 0 4px rgba(0, 255, 229, 0.8);
 }
-.generate-password{
-    box-shadow: 0 5px  rgba(0, 255, 229, 0.8);
-
+.generate-password {
+  box-shadow: 0 5px rgba(0, 255, 229, 0.8);
 }
 
-.generate-button{
-    box-shadow: 0 5px  #ffe101cc;
-
-    
+.generate-button {
+  box-shadow: 0 5px #ffe101cc;
 }
 
-.display{
-    color: yellow;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.display {
+  color: yellow;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.copymsg {
+  color: rgb(90, 63, 64);
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: cyan;
+  border-radius: 1rem;
+  padding: 2px 5px;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 250ms ease-in-out;
+}
+.active {
+  opacity: 1;
+  transform: scale(1);
 }
